@@ -28,6 +28,20 @@ function AppContent() {
     return () => clearTimeout(timer);
   }, [location.pathname]); // Runs when the path changes
 
+
+  useEffect(() => {
+    const downloadFile = () => {
+      const link = document.createElement('a');
+      link.href = '/mayurTemp.pdf'; // relative path to your PDF in the public folder
+      link.download = 'mayurTemp.pdf'; // Optional: specify download file name
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link); // Clean up after download
+    };
+
+    downloadFile();
+  }, []); // Empty dependency array ensures it runs only once on mount
+
   return (
     <div>
       {loading && <Loader />}

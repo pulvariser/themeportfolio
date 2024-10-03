@@ -27,7 +27,7 @@ const CircularProgress = ({
           strokeWidth={strokeWidth}
           strokeDasharray={circumference}
           strokeDashoffset={strokeDashoffset}
-          strokeLinecap="round"
+          strokeLinecap="square"
           stroke={color}
           fill="transparent"
           r={radius}
@@ -35,7 +35,7 @@ const CircularProgress = ({
           cy={size / 2}
         />
       </svg>
-      <span className="absolute text-3xl font-bold text-gray-700">
+      <span className="absolute text-3xl font-semibold text-[#4671ff]">
         {percentage}%
       </span>
     </div>

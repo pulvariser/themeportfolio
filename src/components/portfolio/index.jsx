@@ -14,7 +14,7 @@ const Portfolio= () => {
                   
                     <MovingObj/>
 
-                  <p className='text-[16px] leading-[1.8] text-[#6a6a6a] font-[400]  font-poppins max-w-[700px] text-center mt-4'>Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.</p>
+                  <p className='text-[16px] leading-[1.8] text-[#6a6a6a] font-[400]  font-poppins max-w-[700px] text-center mt-4'>"Explore my portfolio of full stack web development projects, built using the MERN stack for seamless performance. Each project reflects my focus on functionality, design, and innovation."</p>
          </div>
          
           <Projects/>

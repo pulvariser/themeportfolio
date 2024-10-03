@@ -7,20 +7,20 @@ const EduExp = () => {
           duration : '2015 - 2020',
           title : 'engineering degree',
           subTitle : 'nagpur university',
-          desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+          desc : 'I have completed my Bachelorate in Mechanical Engineering. with the CGPA of 7.69'
         },
         {
-          duration : '2015 - 2020',
-          title : 'engineering degree',
-          subTitle : 'nagpur university',
-          desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+          duration : '2013 - 2015',
+          title : 'higher secoundary',
+          subTitle : 'sushil himmat singhka vidyalay',
+          desc : 'I have completed my Higher Secoundary education with first class.'
         },
-        {
-          duration : '2015 - 2020',
-          title : 'commerse degree',
-          subTitle : 'nagpur university',
-          desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
-        },
+        // {
+        //   duration : '2015 - 2020',
+        //   title : 'commerse degree',
+        //   subTitle : 'nagpur university',
+        //   desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+        // },
         
       
 ]
@@ -28,23 +28,23 @@ const EduExp = () => {
 
    const expDetails = [
     {
-      duration : '2015 - 2020',
-      title : 'engineering degree',
-      subTitle : 'nagpur university',
-      desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+      duration : 'April 2024 - July 2024',
+      title : 'Software Developement',
+      subTitle : 'p.m.k.v.y. Skill India',
+      desc : 'I have completed  Skill India Software Product Developement Course & Training with 80% score and certificate of honor.'
     },
     {
-      duration : '2015 - 2020',
-      title : 'engineering degree',
-      subTitle : 'nagpur university',
-      desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+      duration : 'Jan 2024 - Aug 2024',
+      title : 'Full Stack Developement (AI)',
+      subTitle : 'MMEAC pune',
+      desc : 'I have completed the Full Stack Software Developement With AI Course & Training with certification.'
     },
-    {
-      duration : '2015 - 2020',
-      title : 'engineering degree',
-      subTitle : 'nagpur university',
-      desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
-    },
+    // {
+    //   duration : '2015 - 2020',
+    //   title : 'engineering degree',
+    //   subTitle : 'nagpur university',
+    //   desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
+    // },
    
    ]
 
@@ -94,7 +94,7 @@ const EduExp = () => {
            
            <aside className=' space-y-8'>
                     <div className='mr-28 flex items-start flex-col gap-1 justify-start'>
-                            <h2 className='text-[#4671ff] text-[26px] font-[600] capitalize font-poppins '>My Education</h2>
+                            <h2 className='text-[#4671ff] text-[26px] font-[600] capitalize font-poppins '>My Expriences</h2>
                             <div className=' border border-solid border-[#fa2d5a] h-[3px] w-[45px] bg-[#fa2d5a] rounded-[30px]'>
                             </div>
                     </div>

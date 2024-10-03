@@ -229,9 +229,18 @@ const Resume = () => {
                                MERN Estate
                            </h2>
                            <ul>
-                              <li>Advanced Authentication Search functionality, React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.
+                              <li>Real Estate is a leading real estate agency that specializes in helping clients buy, sell,and rent properties in the most desired location. (Advanced Authentication Search functionality React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.)
                               </li>
                              
+                           </ul>
+                        </div>
+                        <div>
+                           <h2 className="text-[#000000] text-[14px] font-[500] ">
+                               MERN Blog
+                           </h2>
+                           <ul>
+                              <li>Robust authentication using JSON Web Tokens and Google OAuth integration, all powered by Redux Toolkit for easy state management. Secure both the client and backend for specific pages.like the admin dashboard.ability to effortlessly manage posts, comments, and users.
+                              </li>
                            </ul>
                         </div>
                         <div>
@@ -239,11 +248,20 @@ const Resume = () => {
                                Expense Tracker
                            </h2>
                            <ul>
-                              <li>Add your daily expenses or Items you have sold and get the details to your daily expense and earnings with the help of candel chart feature. (useState ,useEffect Hooksprops, add ,delete etc.)
+                              <li>Add your daily expenses or Items you have sold and get the details to your daily expense and earnings with the help of candel chart feature. (useState ,useEffect Hooks props, add ,delete etc.)
                               </li>
                            </ul>
                         </div>
                         <div>
+                           <h2 className="text-[#000000] text-[14px] font-[500] ">
+                               RentoMojo
+                           </h2>
+                           <ul>
+                              <li>Why renting, you ask? Well, because we understand that unnecessary furniture and appliance costs are not the best investment options.We provide more than online rental services,With our assured quality and prompt services,you can say goodbye to all the hassles that come with buying and say hello to convenience.
+                              </li>
+                           </ul>
+                        </div>
+                        {/* <div>
                            <h2 className="text-[#000000] text-[14px] font-[500] ">
                                MERN Blog
                            </h2>
@@ -251,25 +269,7 @@ const Resume = () => {
                               <li>Advanced Authentication Search functionality, React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.
                               </li>
                            </ul>
-                        </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               MERN Blog
-                           </h2>
-                           <ul>
-                              <li>Advanced Authentication Search functionality, React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.
-                              </li>
-                           </ul>
-                        </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               MERN Blog
-                           </h2>
-                           <ul>
-                              <li>Advanced Authentication Search functionality, React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.
-                              </li>
-                           </ul>
-                        </div>
+                        </div> */}
                     </div>
     
                </article>
@@ -298,7 +298,8 @@ const Resume = () => {
         <div className="absolute top-[53px] left-48 bg-white w-[130px] h-[130px] z-30 rounded-full">
         </div>
 
-        <div className="absolute top-[60px] left-[200px] bg-red-600 w-[115px] h-[115px] z-50 rounded-full">
+        <div className="absolute top-[60px] left-[200px] bg-red-600 w-[115px] h-[115px] z-50 rounded-full overflow-hidden">
+          <img src="/blazerImg.png" alt="profile" className="object-cover" />
         </div>
         
       
